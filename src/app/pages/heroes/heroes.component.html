@@ -1,0 +1,68 @@
+
+ <h1>Listado de Héroes</h1>
+<hr>
+
+
+<div class="row">
+    <div class="col text-right">
+        <button routerLink="/heroe/nuevo"
+                class="btn btn-primay">
+            <i class="fa fa-plus"></i>
+            Agregar
+        </button>
+    </div>
+ </div>
+
+
+ <table class="table mt-3 animated fadeIn faster">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Api Key</th>
+        <th scope="col">merchant_token</th>
+        <th scope="col">task_description</th>
+        <th scope="col">trans_type</th>
+        <th scope="col">contact_number</th>
+        <th scope="col">email_address</th>
+        <th scope="col">customer_name</th>
+        <th scope="col">delivery_date</th>
+        <th scope="col">delivery_address</th>
+        <th scope="col">task_lat</th>
+        <th scope="col">task_lng</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>d2f834b8077231cd5522c65c30f468dd</td>
+        <td>48c8000cf64a96ce179bbc8492483165</td>
+        <td>Cobrar $500</td>
+        <td>delivery</td>
+        <td>+573232176060</td>
+        <td>admin@tuboxcolombia.com</td>
+        <td>DemoPrueba05032021</td>
+        <td>2021-03-01 20:00:00</td>
+        <td>Cl. 13 #20-94 Centro comercial San Façon Local 153,</td>
+        <td>4.6093439</td>
+        <td>-74.0861173</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="alert alert-warning text-center mt-3">
+    <h4 class="alert-heading">No hay registros</h4>
+    <p>
+      <i class="fa fa-exclamation-alt fa-2x"></i>  
+      </p>
+  </div>
+
+  <div class="alert alert-info text-center mt-3">
+    <h4 class="alert-heading">Cargando</h4>
+    <p>
+      <i class="fa fa-sync-alt fa-spin fa-2x"></i>  
+    </p>
+    <p class="mb-0">
+      Espere por favor 
+    </p>
+
+  </div>
